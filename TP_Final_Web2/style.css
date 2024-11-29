@@ -1,0 +1,1129 @@
+body{
+    background-color: aquamarine;
+    margin-left: 25px;
+    width: 90%;
+}
+
+
+
+
+/* Index.HTML */
+
+/* header */
+
+
+.Cabecera{
+    position: fixed;
+    background-color:darkturquoise;
+    width: 100%;
+    height: 15%;
+    max-height: 15%;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+}
+
+.Cabecera img{
+    margin-left: 100px;
+    margin-top: 0.9375em;
+    width: 15%;
+    height: 50%;
+    max-width:15%;
+    max-height: 50%;
+    border-radius: 50px;
+} 
+
+.logoSanRoMar{
+    padding: 0;
+    margin-left: 15%;
+} 
+
+.logoSanRoMar a{
+    color: black;
+    text-decoration: none;
+}
+
+.logoSanRoMar a:visited{
+    text-decoration: none;
+    background-color: transparent;
+}
+
+.logoSanRoMar h1{
+    font-size: 4vw;
+    text-align: center;
+}
+
+.butonLogin{
+    background-color: black;
+    width: 100%;
+    height: auto;
+}
+
+.formLogin{
+    margin-top: 5px;
+}
+
+.formLogin input[type=text] {
+    width: 25%;
+    padding: 5px 15px;
+    margin-right: 50px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    box-sizing: border-box;
+}
+.formLogin input[type=password] {
+    width: 25%;
+    padding: 5px 15px;
+    margin-right: 50px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    box-sizing: border-box;
+}
+
+.Cabecera button{
+    color: black;
+    background-color: green;
+    margin-left: auto;
+    margin-right: 3.255em;
+    margin-top: 0.3125em;
+    width: 10%;
+    height: 30%;
+    max-width:10%;
+    max-height: 30%; 
+
+}
+
+/* nav */
+
+.Botones{
+    margin-top: 6.25em;
+    margin-bottom: 3.125em;
+    padding-right: 0.625em;
+    width: auto;
+    height: 25%;
+    max-width: auto;
+    max-height: 25%;
+    float: right;
+
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;  
+
+    list-style-type:none;
+    display: inline;
+
+}  
+
+
+.Botones li{
+    display: inline-block;
+    text-align: center;
+} 
+
+.Botones li a{
+    color: black;
+    background-color:cyan;
+    border: 1px solid;
+    margin-left: 0.3125em;
+    margin-right: 0.3125em;
+    margin-top: 3.125em;
+    padding-left: 0.3125em;
+    padding-right: 0.3125em;
+    padding-top: 0.3125em;
+    padding-bottom: 0.3125em;
+    text-decoration: none;
+    width: 20%; 
+    max-width: 20%;
+    
+} 
+
+
+/* Forma Responsiva para los botones(se ubicaran abajo del otro) */
+
+.n1 {
+    padding: 20px 0;
+    margin: 0px;
+
+    float: left; 
+    width: auto;
+}
+   
+
+/* @media screen and (max-width: 800px) {
+    .n1 {
+      width: 100%; /* The width is 100%, when the viewport is 800px or smaller 
+    }
+}  */
+
+/* footer */
+
+
+.footerConteiner{
+    background-color: skyblue;
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    flex-wrap: wrap;  
+    height: 1%;
+    width: 112%;
+    max-height: 1%;
+}
+
+.ubicacion{
+    height: auto;
+    width: 60%;
+}
+
+.ubicacion h2{
+    text-align: center;
+}
+
+.mapas{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;  
+
+    margin-left: 10px;
+}
+
+.mapas iframe{
+    width: 80%;
+    height: auto;
+}
+
+.mapas .mapa{
+    width: 50%;
+    max-width: 50%;
+}
+
+.descripcion{
+    font-size: 2vb;
+    text-align: center;
+  
+}
+
+.informacion{
+    height: auto;
+    width: 30%;
+
+    margin-left: auto;
+}
+
+.informacion h4{
+    text-align: center;
+}
+
+.iconosRS{
+    margin-left: 20%;
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20%;
+}
+
+.informacion img{
+    width: 50%;
+    height: auto;
+    max-width:auto;
+    background-repeat: no-repeat;
+
+    margin-right: 10%;
+}
+
+.infoHorario{
+    margin-top: 50px;
+    margin-left: 15px;
+}
+
+.infoHorario h3{
+    text-align: center;
+}
+
+.infoHorario h4{
+    text-align: left;
+}
+
+.autor{
+    float: right;
+    font-size: 1.5vh;
+    margin-right: 4%;
+}
+
+.autor a{
+    text-decoration: none;
+}
+
+
+.granConteiner{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap; 
+    height: auto;
+    width: 100%;
+    margin-left: 20px;
+    margin-right: 25px;
+    margin-top: 150px;
+    margin-bottom: 50px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+} 
+
+/* article */
+
+.conteiner{
+    background-color: rgba(243, 145, 145, 0.952); 
+    height: auto;
+    width: 60%;
+}
+
+.conteiner h2{
+    font-size: 8vh;
+    text-align: center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    word-wrap: break-word;
+}
+
+.ofertas{
+
+    display: grid;
+    grid-template-columns: 45% 45%;
+    grid-template-rows: auto auto auto;
+} 
+
+
+.producto{
+    margin-left: 1.5625em;
+    margin-right: 1.5625em;
+    margin-top: 0.325em;
+    margin-bottom: 0.325em;
+    /* margin-top: auto;
+    margin-bottom: auto; */
+    padding-left: 0.625em;
+    padding-right: 0.625em;
+    padding-top: 0.625em;
+    padding-bottom: 0.625em;
+
+    width: 90%;
+    height: auto;
+    max-width:90%;
+
+    
+}
+
+.producto img{
+    width: 80%;
+    height: auto;
+    /* max-width:80%; */
+    margin-left: 10%;
+}
+
+.nomProd{
+    /* background-color: green; */
+    width: auto;
+    height: auto;
+    max-width:auto;
+    max-height: auto;
+    margin-left: 10%;
+}
+
+/* ----------------------------- */
+
+.nomProd h3{
+    font-size: 5vh;
+    text-align: center;
+
+    word-wrap: break-word;
+}
+
+
+.precProd{
+     /* background-color: blue; */
+    height: auto;
+   
+    margin-top: 20px;
+
+}
+
+.precProd p{
+    font-size: 3.5vh;
+
+    
+    
+    text-align: right;
+    word-wrap: break-word;
+    
+}
+
+/* @media only screen and (max-width: 500px) {
+    .ofertas{
+
+        display: grid;
+        grid-template-columns: 95%;
+        grid-template-rows: auto;
+    } 
+    .nomProd{
+        /* background-color: green; 
+        width: auto;
+        height: auto;
+        max-width:auto;
+        max-height: auto;
+        margin-left: 10%;
+    }
+    
+    /* ----------------------------- 
+    
+    .nomProd h3{
+        font-size: 3vh;
+        text-align: center;
+        word-wrap: break-word;
+    }
+    
+    
+    .precProd{
+        height: auto;
+       
+        margin-top: 20px;
+    
+    }
+
+    .precProd p{
+        font-size: 1.5vh;
+        text-align: right;
+        word-wrap: break-word;
+        
+    }
+}  */
+
+/* .producto{
+    margin-left: 1.5625em;
+    margin-right: 1.5625em;
+    margin-top: 0.325em;
+    margin-bottom: 0.325em;
+    padding-left: 0.625em;
+    padding-right: 0.625em;
+    padding-top: 0.625em;
+    padding-bottom: 0.625em;
+
+
+    width: 90%;
+    height: auto;
+    max-width:90%;
+
+    background-color: red;
+}
+
+.producto img{
+    width: 60%;
+    height: 60%;
+    max-width:60%;
+    margin-left: 25%;
+}
+
+.producto h3{
+    font-size: 2.5vh;
+    text-align: center;
+
+    word-wrap: break-word;
+}
+
+.producto p{
+    font-size: 2vh;
+    text-align: right;
+} */
+
+/* aside */
+
+.conteiner2{
+    display: grid;
+    grid-template-columns: 45% 45%;
+    grid-template-rows: auto auto auto auto auto;
+
+    width: 35%;
+    height: auto; 
+    margin-left: auto;
+} 
+
+
+.publicidad{
+    margin-left: 20px;
+    margin-right: 80px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 100%;
+    max-width: 100%;
+}
+
+
+.publicidad img{
+    width: 100%;
+    height: 100%;
+    max-width:100%;
+}
+
+.publicidadesHorizontales{
+    display: grid;
+    grid-template-columns: 16% 16% 16% 16% 16% 16%;
+    grid-template-rows: auto;
+
+    margin-left: 20px;
+    margin-right: 25px;
+
+    width: 100%;
+    /* height: 600%; */
+    
+}
+
+
+
+.publicidadH{
+    margin-left: 20px;
+    margin-right: 80px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 100%;
+    max-width: auto;
+    height: 80%;
+}
+
+
+.publicidadH img{
+    width: 100%;
+    height: auto;
+}
+
+/* Regristro.HTML */
+
+.formulario{
+    border: 3px solid red;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    padding-left: 10px;
+    padding-right: 10px;
+    width: auto;
+    height: auto;
+    float: right;
+} 
+
+.formPersonal{
+    margin-bottom: 50px;
+}
+
+.formPersonal input[type=text] {
+    width: 25%;
+    padding: 5px 15px;
+    margin-right: 50px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+}
+
+.formPersonal legend{
+    font-size: 25px;
+}
+
+.formPersonal input[type=radio] {
+    width: 5%;
+    margin-right: 5px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+
+}
+
+.formPersonal input[type=number]  {
+    width: 25%;
+    margin-right: 1px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+/* Para sacar en el input number las flechas de aumento/disnunción */
+.formPersonal input[type=number]::-webkit-inner-spin-button, 
+.formPersonal input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+}
+
+.formPersonal input[type=date] {
+    width: 15%;
+    margin-right: 1px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.formPersonal select{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+
+.formDatos{
+    margin-bottom: 50px;
+}
+
+.formDatos input[type=radio] {
+    width: 5%;
+    margin-right: 5px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+
+}
+
+/* .formDatos select.SIcomerciante, input.NOcomerciante {
+    display: none;
+  }
+  
+  /* lo muestros si está seleccionado value=imagen */
+/* .formDatos input.comerciante[value="si"]:checked ~ select.SIcomerciante {
+    display: block;
+  } */
+  
+  /* lo muestros si está seleccionado value=texto */
+/* .formDatos  input.comerciante[value="no"]:checked ~ input.NOcomerciante {
+    display: block;
+}  */
+
+.formDatos select{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+/* Para sacar en el input number las flechas de aumento/disnunción */
+.formDatos input[type=number]::-webkit-inner-spin-button, 
+.formDatos input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+}
+
+
+.formUsuario{
+    margin-bottom: 50px;
+}
+
+.formUsuario input[type=email] {
+    width: 25%;
+    padding: 5px 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+.formUsuario input[type=text] {
+    width: 25%;
+    padding: 5px 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+.formUsuario input[type=password] {
+    width: 25%;
+    padding: 5px 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+
+input[type=submit]{
+    background-color: blue;
+    border: none;
+    color: white;
+    padding: 5px 5px;
+    margin: 10px 10px;
+    cursor: pointer;
+  }
+
+input[type=reset] {
+    background-color: black;
+    border: none;
+    color: white;
+    padding: 5px 5px;
+    margin: 10px 10px;
+    cursor: pointer;
+  }
+
+input[type=button] {
+    background-color: red;
+    border: none;
+    color: white;
+    padding: 5px 5px;
+    margin: 10px 10px;
+    cursor: pointer;
+}
+
+/* producto.HTML */
+
+.ConteinerProducto{
+    background-color: yellow;
+
+    margin-bottom: 3.125em;
+    width: 90%;
+    height: auto;
+    float: right;
+    
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;  
+}
+
+
+.ConteinerProducto h3{
+    width: 100%;
+    font-size: 4.6875em;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+}
+
+.ConteinerProducto img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    height: auto;
+    max-width:100%;
+}
+
+
+.ConteinerProducto p{
+    text-align:justify;
+    font-family: 'Times New Roman', Times, serif;
+    margin-left: 2.5em;
+    margin-right: 2.5em;
+}
+
+.descripcion{
+    /* background-color: green; */
+    margin-left: 0.625em;
+    margin-right: 0.625em;
+
+    height: auto;
+    width: 60%;
+}
+
+.descripcion input[type=number] {
+    width: 9%;
+    padding: 0.3125em 0.625em;
+    box-sizing: border-box;
+}
+
+.botonesProducto{
+    height: auto;
+    width: 30%;
+
+    margin-bottom: 1.875em;
+}
+
+.btProducto {
+    background-color: blue;
+    margin-top: 1.5625em;
+    margin-bottom: 1.5625em;
+    margin-left: auto;
+
+    padding: 0.3125em;
+
+    width: 60%; 
+    height: auto;
+    max-width: 60%;
+}
+
+.btProducto a{
+    color: white;
+    text-decoration: none;
+}
+
+
+/* listaPrecios.HTML */
+
+.menuCompra{
+    background-color:burlywood;
+    border: 2px solid black;
+    width: 100%;
+    height: auto;
+    float: right;
+
+    padding: 10px;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;  
+
+    list-style-type:none;
+    display: inline;
+
+}
+
+.menuCompra li{
+    display: inline-block;
+    text-align: center;
+    background-color: #333;
+   
+} 
+
+/* Forma para hacer un subMenu desplegable */
+.subMenu{
+display: inline-block;
+position: relative;
+}
+
+.subMenu button{
+    margin-left: 5px;
+    margin-right: 15px;
+    padding: 5px;
+    
+}
+
+.subMenuCont{
+    display: none;
+    position: absolute;
+    background-color: green;
+    width: auto;
+    overflow: auto;
+}
+
+.subMenu:hover .subnavbtn {
+    background-color: red;
+}
+
+.subMenuCont a {
+    float: left;
+    color: white;
+    text-decoration: none;
+}
+
+.subMenuCont a:hover {
+    background-color: #eee;
+    color: black;
+    height: auto;
+}
+
+.subMenu:hover .subMenuCont {
+    display: block;
+}
+
+
+
+.conteinerListaProductos{
+    background-color: coral;
+    margin-top: 50px;    
+    width: 100%;
+    height: auto;
+    float: right;
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+}
+
+.ordenLista{
+    width: 100%;
+    height: auto;
+    margin-bottom: auto;
+
+    display: grid;
+    grid-template-columns: 70% 30%;
+}
+
+.ordenPrecio{
+    margin-left: 10px;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;  
+}
+
+
+.visualizacionProductos{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;  
+}
+
+.ordenLista button{
+    width: auto;
+    height: auto;
+
+    font-size: 2vh;
+
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.listaProductos{
+    margin-top: auto;
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-rows: auto auto  auto ;
+}
+
+/* @media only screen and (max-width: 500px) {
+    .listaProductos{
+        margin-top: auto;
+        display: grid;
+        grid-template-columns: 45% 45%;
+        grid-template-rows: auto ;
+    }
+}  */
+
+
+/* .productoL{
+    margin-left: 1.5625em;
+    margin-right: 1.5625em;
+    margin-top: 0.325em;
+    margin-bottom: 0.325em;
+    padding-left: 0.625em;
+    padding-right: 0.625em;
+    padding-top: 0.625em;
+    padding-bottom: 0.625em;
+
+    width: 90%;
+    height: auto;
+    max-width:90%;
+
+    background-color: red;
+
+    
+}
+
+.productoL img{
+    width: 80%;
+    height: auto;
+    margin-left: 10%;
+}
+
+.nomProd{
+    width: auto;
+    height: auto;
+    max-width:auto;
+    max-height: auto;
+    margin-left: 10%;
+}
+
+
+.nomProd h3{
+    font-size: 5vh;
+    text-align: center;
+
+    word-wrap: break-word;
+}
+
+@media only screen and (max-width: 500px) {
+    .nomProd h3{
+        font-size: 1.5vh;
+        text-align: center;
+    
+        word-wrap: break-word;
+    }
+} 
+
+.precProd{
+    height: auto;
+   
+    margin-top: 20px;
+
+}
+
+.precProd p{
+    font-size: 3.5vh;
+
+    
+    
+    text-align: right;
+    word-wrap: break-word;
+    
+} */
+
+.pagination {
+    display: inline-block;
+    margin-left: 35%;
+    margin-right: 35%;
+}
+  
+.pagination a {
+    color: black;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+  
+.pagination a.active {
+    background-color: red;
+    color: white;
+}
+
+/* menuCarrito.HTML */
+
+.tablaProductos{
+    float: right;
+    margin-top: 15%;
+    width: 60%;
+    max-width: 60%;
+}
+
+
+table{
+    background-color:darkgrey;
+    border: 1px solid;
+    width: 60%;
+    max-width: 60%;
+    text-align: center;
+
+    margin-left: auto;
+}
+
+th{
+    text-align: left;
+}
+td{
+    font-size: 4vb;
+    text-align: center;
+    color: black;
+}
+
+.prodCarr{
+    text-align: left;
+}
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+  }
+
+.textCompra{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;  
+}
+
+.textTotal {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px black;
+    margin-left: auto;
+    
+}
+
+/* Mensaje Emergente al pasar el cursos por el texto */
+  
+.textTotal .textEmergente {
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: red;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+    top: 100%;
+    left: 50%;
+    margin-left: -60px;
+    font-size: 2vb;
+}
+  
+.textTotal:hover .textEmergente {
+    visibility: visible;
+}
+
+.botonesProducto{
+    padding-left: 1%;
+    width: 50%;
+    float: right;
+}
+
+.btCarrito{
+    background-color: blue;
+    margin-top: 1.5625em;
+    margin-bottom: 1.5625em;
+    margin-left: auto;
+
+    padding: 0.3125em;
+
+    width: 40%; 
+    max-width: 40%;
+}
+
+.btCarrito a{
+    color: white;
+    text-decoration: none;
+}
+
+/* nosotros.HTML */
+
+.delimitador{
+    width:50%;
+    height:auto;
+    margin:auto;
+}
+
+/* @media only screen and (max-width: 600px) {
+    .delimitador{
+        width:80%;
+        height:auto;
+        margin:auto;
+    }
+  } */
+
+.videoPresentacion{
+    float: right;
+    margin-top: 35%;
+    
+    padding-bottom: 30%;
+    padding-top: 30px;
+    height: 0;
+    overflow: hidden;
+
+    height:0px;
+    width:100%;
+    max-width:560px; /* Así establecemos el ancho máximo (si lo queremos) */
+    padding-top:56.25%; /* Relación: 16/9 = 56.25% */
+    position:relative;
+}
+
+.videoPresentacion iframe{
+    position:absolute;
+    height:80%;
+    width:100%;
+    top:0px;
+    left:0px;
+}
+    
+.historia{
+    float: right;
+}
+
+.historia h2{
+    color: red;
+    background-color: black;
+    font-size: 10vh;
+    text-align: center;
+    margin-top: auto;
+    width: 120%;
+    height: 15%;
+    max-height: 15%;
+}
+
+.historia p{
+    text-align: justify;
+    text-indent: 50px;
+    margin: 0px 60px;
+}
+
+
+
+
+
